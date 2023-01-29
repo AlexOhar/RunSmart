@@ -1,0 +1,19 @@
+@import "base/varitables";
+@import "base/mixins";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/benefits";
+
+* {
+    font-family: 'Museo Sans', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import "base/media";

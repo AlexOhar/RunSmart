@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+    .container {
+        max-width: 516px;
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            flex-wrap: wrap;
+            margin-top: 0;
+        }
+        &__item {
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+    }
+    
+}
+
+@media (max-width: 575px) {
+
+}
