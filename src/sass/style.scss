@@ -1,16 +1,32 @@
+@import "libs/font";
+@import "libs/slick";
+@import "libs/animate";
+
 @import "base/varitables";
 @import "base/mixins";
+@import "base/animation";
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/button";
 @import "blocks/header";
 @import "blocks/benefits";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modals";
+@import "blocks/pageup";
+
 
 * {
     font-family: 'Museo Sans', sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container {
     max-width: 950px;

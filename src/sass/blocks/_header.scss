@@ -4,6 +4,7 @@
     align-items: center;
     &__logo {
         width: 250px;
+        z-index: 5;
         img {
             width: 100%;
         }
@@ -13,6 +14,7 @@
         font-size: 12px;
         text-align: center;
         color: #FFFFFF;
+        z-index: 5;
         span {
             display: block;
             font-size: 18px;
@@ -28,6 +30,7 @@
         text-align: right;
         color: #FFFFFF;
         text-decoration: none;
+        z-index: 5;
         &:hover {
             color: #FFFFFF;
             text-decoration: none;
